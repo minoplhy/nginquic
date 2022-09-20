@@ -1,4 +1,4 @@
-## Status : Succeeded `(As of `[ace356d5e99af0716b3974611b1e55ef115eddac](https://github.com/minoplhy/scriptbox/commit/ace356d5e99af0716b3974611b1e55ef115eddac)` at Mar 9 2022)`
+## Status : Succeeded `(As of `[9ffd06ec85033ac24187d9e7eb28426a36c9df6c](https://github.com/minoplhy/scriptbox/commit/9ffd06ec85033ac24187d9e7eb28426a36c9df6c)` at Sept 20 2022)`
 # Note to Self :
 This Script is using to build nginx with quic and some modules i'm currently using .
 
