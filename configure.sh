@@ -47,6 +47,7 @@
 --add-dynamic-module=mosc/ngx_cache_purge \
 --add-dynamic-module=mosc/nginx-dav-ext-module \
 --add-dynamic-module=mosc/echo-nginx-module \
+--add-dynamic-module=mosc/ModSecurity-nginx \
 --with-http_v3_module \
 --with-stream_quic_module \
 --with-http_geoip_module \

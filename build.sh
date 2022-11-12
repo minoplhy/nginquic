@@ -3,10 +3,22 @@ rm -rf nginquic
 curl -sSL https://raw.githubusercontent.com/minoplhy/nginquic/main/packages.sh | bash
 mkdir nginquic && cd nginquic
 hg clone -b quic https://hg.nginx.org/nginx-quic
-git clone https://github.com/google/boringssl
+git clone --depth=1 https://github.com/google/boringssl
 cd boringssl
 mkdir build && cd build && cmake .. && make
 cd .. && cd ..
+
+# ModSecurity Part
+git clone --depth=1 https://github.com/SpiderLabs/ModSecurity
+cd ModSecurity/
+git submodule init
+git submodule update
+./build.sh
+./configure
+make
+sudo make install
+cd ..
+
 cd nginx-quic
 mkdir mosc && cd mosc && curl -sSL https://raw.githubusercontent.com/minoplhy/nginquic/main/modules.sh | bash && cd ..
 curl -sSL https://raw.githubusercontent.com/minoplhy/nginquic/main/configure.sh | bash && make
