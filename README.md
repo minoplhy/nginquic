@@ -8,7 +8,7 @@ This Script is using to build nginx with quic and some modules i'm currently usi
 OS : Debian
 
 ```shell
-curl https://raw.githubusercontent.com/minoplhy/nginquic/main/build.sh | sudo bash
+curl https://raw.githubusercontent.com/minoplhy/nginquic/ModSecurity_incl/build.sh | sudo bash
 ```
 
 systemd Template:
