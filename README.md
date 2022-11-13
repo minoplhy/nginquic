@@ -1,4 +1,4 @@
-## Status : Succeeded `(As of `[9ffd06ec85033ac24187d9e7eb28426a36c9df6c](https://github.com/minoplhy/nginquic/commit/9ffd06ec85033ac24187d9e7eb28426a36c9df6c)` at Sept 20 2022)`
+## Status : Succeeded `(As of `[d3affd7f4db51cbe1273c8b76b9615bbf7d23bdc](https://github.com/minoplhy/nginquic/commit/d3affd7f4db51cbe1273c8b76b9615bbf7d23bdc)` at Nov 13 2022)`
 # Note to Self :
 This Script is using to build nginx with quic and some modules i'm currently using .
 
