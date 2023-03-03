@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd ~/
 rm -rf nginquic
 curl -sSL https://raw.githubusercontent.com/minoplhy/nginquic/main/packages.sh | bash
