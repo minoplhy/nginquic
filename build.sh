@@ -28,8 +28,8 @@ sudo make install
 cd ..
 
 cd nginx-quic
-mkdir mosc && cd mosc && curl -sSL https://raw.githubusercontent.com/minoplhy/nginquic/main/modules.sh | bash && cd ..
-curl -sSL https://raw.githubusercontent.com/minoplhy/nginquic/main/configure.sh | bash && make
+mkdir mosc && cd mosc && curl -sSL https://raw.githubusercontent.com/minoplhy/nginquic/ModSecurity_incl/modules.sh | bash && cd ..
+curl -sSL https://raw.githubusercontent.com/minoplhy/nginquic/ModSecurity_incl/configure.sh | bash && make
 
 read -p "Would you like to Install Nginx Scriptly? (y/n)?" choice
 case "$choice" in 
@@ -43,7 +43,7 @@ if [[ $Nginx_Install_ANS == "install" ]]; then
     cd objs && cp *.so /lib/nginx/modules
     rm /usr/sbin/nginx
     cp nginx /usr/sbin/nginx
-    curl -sSL https://raw.githubusercontent.com/minoplhy/nginquic/main/modules.conf > modules.conf
+    curl -sSL https://raw.githubusercontent.com/minoplhy/nginquic/ModSecurity_incl/modules.conf > modules.conf
     cp modules.conf /etc/nginx/modules-enabled
 else
     echo "Nginx Installation Abort. Your Nginx assets location is : ~/nginquic/nginx-quic/objs"
