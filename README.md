@@ -8,7 +8,7 @@ This Script is using to build nginx with quic and some modules i'm currently usi
 OS : Debian
 
 ```shell
-Nginx_Install=yes  # This variable is required if you want Nginx to be installed scriptibly (on Debian-based systems).
+export Nginx_Install=yes  # This variable is required if you want Nginx to be installed scriptibly (on Debian-based systems).
 curl https://raw.githubusercontent.com/minoplhy/nginquic/main/build.sh | sudo bash
 ```
 
