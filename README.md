@@ -9,7 +9,8 @@ OS : Debian
 
 ```shell
 export Nginx_Install=yes  # This variable is required if you want Nginx to be installed scriptibly (on Debian-based systems).
-curl https://raw.githubusercontent.com/minoplhy/nginquic/main/build.sh | sudo bash
+curl https://raw.githubusercontent.com/minoplhy/nginquic/main/build.sh > ~/nginquic.sh
+bash ~/nginquic.sh
 ```
 
 systemd Template:
