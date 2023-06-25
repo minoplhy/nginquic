@@ -1,4 +1,5 @@
 ## Status : Deprecated, QUIC branch is closed and merged to main Nginx repository. also, the script is no longer working. Because of the changes.
+Btw, Future maintainance of the script will continue here: [https://github.com/minoplhy/scriptbox/tree/main/nginx_build_script](https://github.com/minoplhy/scriptbox/tree/main/nginx_build_script). Though the main purpose is for personal usage, this might not suit you well. 
 
 # Note to Self :
 This Script is using to build nginx with quic and some modules i'm currently using .
