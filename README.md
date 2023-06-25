@@ -1,4 +1,5 @@
-## Status : Succeeded `(As of `[9b36007276bb74ba9e548ac18111719844b3f483](https://github.com/minoplhy/nginquic/commit/9b36007276bb74ba9e548ac18111719844b3f483)` at Nov 30 2022)`
+## Status : Deprecated, QUIC branch is closed and merged to main Nginx repository. also, the script is no longer working. Because of the changes.
+
 # Note to Self :
 This Script is using to build nginx with quic and some modules i'm currently using .
 
